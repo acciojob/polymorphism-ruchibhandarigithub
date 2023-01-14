@@ -1,20 +1,11 @@
 package com.driver;
 
-import java.util.Scanner;
 public class Main {
    public static  void main(String args[]){
-       Scanner sc = new Scanner(System.in);
-       int x = sc.nextInt();
-       int y = sc.nextInt();
-       int z = sc.nextInt();
-       double x1 = sc.nextDouble();
-       double y1 = sc.nextDouble();
-       Product p = new Product();
-
-       System.out.println(p.product(x,y));
-       System.out.println(p.product(x,y,z));
-       System.out.println(p.product(x1,y1));
-
+     Product p = new Product();
+     p.product(1,2);
+     p.product(1,2,3);
+     p.product(1.5,1.5);
 
    }
 }
